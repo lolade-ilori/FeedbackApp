@@ -1,12 +1,11 @@
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Header from "./components/Header"
-import FeedbackData from "./data/FeedbackData"
 import FeedbackList from "./components/FeedbackList"
 import FeedbackStats from "./components/FeedbackStats"
 import FeedbackForm from "./components/FeedbackForm"
 import AboutPage from './pages/AboutPage'
 import AboutIconLink from './components/AboutIconLink'
-import {FeedbackProvider, feedbackProvider} from './context/FeedbackContext'
+import {FeedbackProvider} from './context/FeedbackContext'
 // NB: feedback provider is not a default exort, that's why it's wrapped with curly braces
 
 function App() {
